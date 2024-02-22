@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed";
+}
+
+.first-slider {
+  margin: 0;
+  padding: 0;
+  height: 468px;
+  width: 100%;
+  background-color: rgb(175, 245, 94);
+  background-image: url(../img/slide1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider-title {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  width: 130px;
+  font-weight: 500;
+  margin: 60px 0;
+}
+
+.slider-text {
+  color: white;
+  margin: 20px 0;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: 1px solid white;
+  background-color: #2d2d2d;
+  font-size: 12px;
+}
+
+.section-activities {
+  text-align: center;
+  color: white;
+}
+.section-activities h2 {
+  font-size: 32px;
+}
+.section-activities p {
+  width: 290px;
+  margin: auto;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.second-Slider {
+  background-image: url(/img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+  background-size: cover;
+  height: 270px;
+}/*# sourceMappingURL=styles.css.map */
