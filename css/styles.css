@@ -61,6 +61,13 @@ body {
 
 .second-Slider {
   background-image: url(/img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+  background-color: rgb(175, 112, 112);
   background-size: cover;
   height: 270px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.second-Slider h2 {
+  font-size: 64px;
 }/*# sourceMappingURL=styles.css.map */
