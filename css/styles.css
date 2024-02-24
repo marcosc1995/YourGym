@@ -3,17 +3,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed";
+  color: white;
 }
 
 .first-slider {
   margin: 0;
   padding: 0;
-  height: 468px;
+  height: 467px;
   width: 100%;
-  background-color: rgb(175, 245, 94);
   background-image: url(../img/slide1.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   display: flex;
@@ -54,20 +54,178 @@ body {
 }
 .section-activities p {
   width: 290px;
-  margin: auto;
+  margin: 23px auto 60px auto;
   font-weight: 200;
   font-size: 13px;
 }
 
 .second-Slider {
-  background-image: url(/img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
-  background-color: rgb(175, 112, 112);
+  background-image: url("/img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
   background-size: cover;
   height: 270px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 .second-Slider h2 {
   font-size: 64px;
+  z-index: 3;
+  margin: 50px auto 10px auto;
+}
+.second-Slider p {
+  z-index: 3;
+  margin: 10px auto;
+}
+.second-Slider button {
+  z-index: 3;
+  margin: 10px auto;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6705882353);
+  position: absolute;
+  z-index: 1;
+}
+
+.colored {
+  color: #abca48;
+}
+
+.section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+.section h3 {
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+.section p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  font-weight: lighter;
+  width: 295px;
+  margin: 10px auto;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 270px;
+  z-index: 3;
+}
+.section div h2 {
+  margin: 10px auto;
+  z-index: 3;
+  color: white;
+}
+.section div h3 {
+  margin: 10px auto;
+  color: white;
+  z-index: 3;
+}
+.section div button {
+  z-index: 3;
+  margin: 10px auto;
+}
+
+#eastSide {
+  background-image: url(/img/sven-mieke-MsCgmHuirDo-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#montevideoShopping {
+  background-image: url(/img/risen-wang-20jX9b35r_M-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ourExperience {
+  font-size: 20px;
+  margin: 30px 0 30px 20px;
+}
+.ourExperience h2 {
+  margin: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 185px;
+}
+.ourExperience :nth-child(2) {
+  font-size: 14px;
+  width: 185px;
+  color: #abca48;
+}
+
+.appDownload {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+.appDownload h3 {
+  margin: 0 0 10px 25px;
+}
+
+.img-bundle {
+  background-image: url(/img/bundleStore.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+}
+
+.social-section {
+  margin: 0 0 0 25px;
+}
+.social-section h2 {
+  font-size: 15px;
+}
+
+.social-icons img {
+  width: 43px;
+  height: 43px;
+}
+
+.schedules {
+  margin: 0 0 0 25px;
+}
+.schedules h2 {
+  font-size: 18px;
+}
+.schedules p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer h2 {
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+.footer h3 {
+  font-size: 12px;
+  margin-left: 25px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.footer h5 {
+  margin: auto;
+}
+.footer img {
+  justify-content: center;
+  width: 75px;
+  height: 40px;
+  margin: 20px auto;
 }/*# sourceMappingURL=styles.css.map */
