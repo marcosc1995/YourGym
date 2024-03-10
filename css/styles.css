@@ -6,6 +6,18 @@ body {
   color: white;
 }
 
+.slider-controls {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 3;
+}
+.slider-controls div {
+  width: 50px;
+}
+
 .first-slider {
   margin: 0;
   padding: 0;
@@ -60,18 +72,20 @@ body {
 }
 
 .second-Slider {
-  background-image: url("/img/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
+  background-image: url(../img/sven-mieke-EuwD039Svug-unsplashSM.jpg);
   background-size: cover;
   height: 270px;
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: 2;
+  transition-duration: 5s;
 }
 .second-Slider h2 {
   font-size: 64px;
   z-index: 3;
   margin: 50px auto 10px auto;
+  transition-duration: 5s;
 }
 .second-Slider p {
   z-index: 3;
@@ -137,13 +151,13 @@ body {
 }
 
 #eastSide {
-  background-image: url(/img/sven-mieke-MsCgmHuirDo-unsplash.jpg);
+  background-image: url(../img/sven-mieke-MsCgmHuirDo-unsplash.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #montevideoShopping {
-  background-image: url(/img/risen-wang-20jX9b35r_M-unsplash.jpg);
+  background-image: url(../img/risen-wang-20jX9b35r_M-unsplash.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -174,7 +188,7 @@ body {
 }
 
 .img-bundle {
-  background-image: url(/img/bundleStore.png);
+  background-image: url(../img/bundleStore.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
