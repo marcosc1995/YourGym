@@ -79,13 +79,13 @@ body {
   flex-direction: column;
   position: relative;
   z-index: 2;
-  transition-duration: 5s;
+  transition-duration: 1s;
 }
 .second-Slider h2 {
   font-size: 64px;
   z-index: 3;
   margin: 50px auto 10px auto;
-  transition-duration: 5s;
+  transition-duration: 1s;
 }
 .second-Slider p {
   z-index: 3;
@@ -94,6 +94,11 @@ body {
 .second-Slider button {
   z-index: 3;
   margin: 10px auto;
+}
+
+.test-transition {
+  color: rgba(255, 255, 255, 0.2745098039);
+  transform: translateY(-10px);
 }
 
 .layer {
@@ -242,4 +247,92 @@ body {
   width: 75px;
   height: 40px;
   margin: 20px auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .first-slider {
+    height: 100vh;
+  }
+  .slider-title {
+    width: auto;
+  }
+  .slider-title div {
+    width: auto;
+    margin: auto;
+    font-size: 64px;
+    font-weight: 500;
+  }
+  .slider-text {
+    margin-top: 100px;
+    font-size: 25px;
+  }
+  .slider-controls {
+    top: 500px;
+  }
+  .slider-controls div {
+    width: 60px;
+    height: 60px;
+  }
+  .slider-controls div img {
+    width: 60px;
+    height: 60px;
+  }
+  .section-activities h2 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 50px auto 10px auto;
+  }
+  .section-activities p {
+    width: auto;
+    font-size: 20px;
+  }
+  .second-Slider {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-Slider h2 {
+    font-size: 100px;
+  }
+  .our-centers h2 {
+    font-size: 60px;
+    margin-top: 60px 0 20px 0;
+  }
+  .our-centers p {
+    width: auto;
+    font-size: 24px;
+    margin: 60px 0;
+  }
+  .test-foot {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ourExperience {
+    width: 400px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+  }
+  .ourExperience h2 {
+    width: 400px;
+    font-size: 40px;
+  }
+  .ourExperience :nth-child(2) {
+    font-size: 24px;
+    width: 400px;
+    color: #abca48;
+  }
+  .appDownload {
+    margin-top: 13px;
+  }
+  .footer {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+  }
+  .footer h2 {
+    margin: 10px 0;
+  }
+  .footer h3 {
+    margin: 5px 0 30px 0;
+  }
 }/*# sourceMappingURL=styles.css.map */

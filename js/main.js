@@ -68,6 +68,18 @@ function changeSlide(arr, dir) {
     currentItem = currentItem + 1;
     console.log(currentItem);
     secondSlider.style.backgroundImage = arr[currentItem].image;
+    // secondSlider.querySelector('h2').style.color = 'blue'
+    // const secondSliderTitle = secondSlider.querySelector('h2')
+    // if (secondSliderTitle.classList.contains('test-transition')) {
+    //   secondSliderTitle.classList.remove('test-transition')
+    // } else{
+    //   secondSliderTitle.classList.add('test-transition')
+    // }
+    // secondSlider.querySelector('h2').classList.toggle('test-transition')
+    // setTimeout(() => {
+    //   // secondSlider.querySelector('h2').style.color = 'green'
+    //   secondSlider.querySelector('h2').classList.toggle('test-transition')
+    // }, 300);
     secondSlider.querySelector('h2').textContent = arr[currentItem].title
     console.log(arr[currentItem].image);
   }
@@ -95,3 +107,4 @@ sliderOneRight.addEventListener("click", () => {
   // console.log(`"url(../img/${sliderImages[2]})"`);
   // secondSlider.style.backgroundImage = `url(../img/${sliderImages[0]})`;
 });
+
